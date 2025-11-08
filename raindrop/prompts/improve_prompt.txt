@@ -1,0 +1,13 @@
+You are a precise refactoring assistant.
+Input:
+repo: {repo}
+sha: {sha}
+file: {file}
+code: {code}
+
+Output JSON:
+{
+  "explanation": "why improvement helps",
+  "patch": "updated code"
+}
+
