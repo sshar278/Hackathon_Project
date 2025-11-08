@@ -1,0 +1,66 @@
+{
+  "ref": "refs/heads/main",
+  "before": "abc123def456",
+  "after": "def456ghi789",
+  "repository": {
+    "id": 123456789,
+    "name": "test-repo",
+    "full_name": "test-owner/test-repo",
+    "owner": {
+      "name": "test-owner",
+      "email": "test@example.com",
+      "login": "test-owner"
+    },
+    "private": false,
+    "html_url": "https://github.com/test-owner/test-repo"
+  },
+  "pusher": {
+    "name": "test-owner",
+    "email": "test@example.com"
+  },
+  "head_commit": {
+    "id": "def456ghi789",
+    "message": "Update API endpoints and add error handling",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "author": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "username": "testuser"
+    },
+    "committer": {
+      "name": "Test User",
+      "email": "test@example.com",
+      "username": "testuser"
+    },
+    "added": [],
+    "modified": [
+      "src/api/endpoints.py",
+      "src/utils/errors.py"
+    ],
+    "removed": []
+  },
+  "commits": [
+    {
+      "id": "def456ghi789",
+      "message": "Update API endpoints and add error handling",
+      "timestamp": "2024-01-15T10:30:00Z",
+      "author": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "username": "testuser"
+      },
+      "committer": {
+        "name": "Test User",
+        "email": "test@example.com",
+        "username": "testuser"
+      },
+      "added": [],
+      "modified": [
+        "src/api/endpoints.py",
+        "src/utils/errors.py"
+      ],
+      "removed": []
+    }
+  ]
+}
+
